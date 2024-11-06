@@ -73,12 +73,12 @@ After cleaning the data in excel, pivot table was used for the analysis and then
  ### Tools used
  ---
 1. Microsoft Excel: This is used for data cleaning, analysis and creating pivot visualization
-2. Structured Query Language for quering data
-3. PowerBI for dashboard visualization
+   [Download Here](https://www.microsoft.com)
+3. Structured Query Language for quering data
+4. PowerBI for dashboard visualization
 
  ### Dashboard Overview
-
-![image](https://github.com/user-attachments/assets/77b1b694-b51f-4412-b63e-86642185cd0c)
+![SALES ANALYSIS DASHBOARD](https://github.com/user-attachments/assets/c060c9ae-8391-40b1-82c5-6872e003067d)
 
  ### Data Analysis and Insights Generation
  This visualization tells a lot about the Retail Store. It reveals the top selling product, sales in each region, monthly sales, top customers etc.
