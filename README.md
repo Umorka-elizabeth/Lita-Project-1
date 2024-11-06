@@ -100,8 +100,8 @@ Region South reported the highest revenue of N927,830.00, which is about 44% of 
 4. Study Customers Demands: A thorough examination must be done on the demands of customers in the different regions. From the analysis above region South has the highest revenue, this shows that one or two products might have a high turnover. Other regions should be examined as well in other to meet customers demand and to boost sales in their respective locations.
 5. Effective Sales Training: There should be constant seasonal training for sales personnels. This will have a postive impact on sales.
 
-   ### Conclusion
-   ---
+### Conclusion
+---
 The store performance is not bad but there is need for a great improvement. If the above recommendations can be applied, especially in the area of marketing - the 7Ps. Taking into consideration optimized pricing strategies e.g low ball pricing for a low income earners region, appropriate discount, customer satisfaction, other actionable and achievable strategies, focus on boosting sales for more revenue. Implementing these strategies aims to improve sales performance and ensure sustainable growth.
 
    
