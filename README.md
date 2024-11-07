@@ -69,6 +69,62 @@ After cleaning the data in excel, pivot table was used for the analysis and then
 * Data Filtering and Segmentation: Filtering was done on Excel and pivot tables allows for segmentation by products, regions and monthly sales which produces a great insight into the data. SQL's GROUP, WHERE and ORDER BY clauses filtered and grouped by product, region, monthly etc also revealed targeted insight while PowerBI segmented insights of Excel and SQL into an interesting report.
 * Descriptive Analysis: Metrics calculation was done on Excel for the average sales which reported N1,256.00 and the total revenue by region which reported N2,101,090.00. SQL queries were written for a futher insight of the sales data and PowerBI visualises all.
 * Dashboard Creation: Pivot table on Excel was used for the summarisation of the dataset and PowerBi dashboard visualizes the data using components like barchat, piechart, table, area chart and slicer.
+ 
+ ### Data Analysis carried out on Structured Query Languag
+ ---
+ This is where we include some basic lines of code or queries.
+ 
+To select the dataset table
+ ```SQL
+SELECT * FROM TOTAL_SALES FROM [dbo].[PROJECT 1 SALES DATA]
+```
+Total Sales for each product
+```
+SELECT PRODUCT, SUM(TOTAL_SALES) AS TOTAL_SALES FROM [dbo].[PROJECT 1 SALES DATA]
+GROUP BY PRODUCT
+```
+Number of sales transaction in each region
+```
+SELECT REGION, COUNT(*) AS TOTAL_SALES FROM [dbo].[PROJECT 1 SALES DATA]
+GROUP BY REGION
+```
+Highest selling product by total sales value
+```
+SELECT TOP 1 PRODUCT, SUM(TOTAL_SALES) AS TOTAL_SALES FROM[dbo].[PROJECT 1 SALES DATA]
+GROUP BY PRODUCT
+```
+Total revenue per product
+```
+SELECT PRODUCT, SUM(TOTAL_SALES) AS TOTAL_SALES FROM [dbo].[PROJECT 1 SALES DATA]
+GROUP BY PRODUCT
+```
+Monthly sales totals for the year
+```
+SELECT MONTH(OrderDate) AS MONTH, SUM(Total_Sales) AS MonthlySales FROM [dbo].[PROJECT 1 SALES DATA]
+WHERE year (OrderDate) = year (GetDate())
+Group by month(OrderDate)
+Order by month;
+```
+Top 5 customers by total purchase amount
+```
+ SELECT TOP 5 customer_id, sum(Total_Sales) AS TOTALPURCHASEAMOUNT FROM [dbo].[PROJECT 1 SALES DATA]
+ GROUP BY CUSTOMER_ID
+ Order by TotalPurchaseAmount
+desc;
+```
+Percentage of total sales by each region
+```
+SELECT Region, SUM(TOTAL_SALES) AS TOTAL_SALES, sum (Total_sales)*1.0/(select sum(Total_Sales) from [dbo].[PROJECT 1 SALES DATA])*100
+As PercentageofTotalSales from [dbo].[PROJECT 1 SALES DATA]
+Group By Region;
+```
+Products with no sales in the last quarter
+```
+Select Product from [dbo].[PROJECT 1 SALES DATA]
+Group By Product
+Having Sum(CASE WHEN OrderDate BETWEEN '2023-09-01' AND '2023-12-31'
+THEN 1 ELSE 0 END) = 0
+```
 
  ### Tools used
  ---
