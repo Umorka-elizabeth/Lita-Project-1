@@ -54,7 +54,7 @@ The dataset includes the following fields:
  ### Methodology
  ---
 ### Data Collection
-The dataset for this analysis was provided by the Incubator Hub, Lita Data Analysis Dept. The data was provided in CSV format, making it accessible for analysis.
+The dataset for this analysis was provided by the Incubator Hub through LMS. The data was provided in Excel format, making it accessible for analysis.
 
 ### Data Manipulation
 1. Data Cleaning:
