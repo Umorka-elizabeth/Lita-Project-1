@@ -14,6 +14,8 @@ A Retail Store Sales Performance Analysis
  [Data Manipulation](#data-manipulation)
  
  [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
+
+ [Data Analysis on Structured Query Language](data-analysis-on-structured-query-language)
  
  [Tools Used](#tools-used)
  
@@ -70,9 +72,9 @@ After cleaning the data in excel, pivot table was used for the analysis and then
 * Descriptive Analysis: Metrics calculation was done on Excel for the average sales which reported N1,256.00 and the total revenue by region which reported N2,101,090.00. SQL queries were written for a futher insight of the sales data and PowerBI visualises all.
 * Dashboard Creation: Pivot table on Excel was used for the summarisation of the dataset and PowerBi dashboard visualizes the data using components like barchat, piechart, table, area chart and slicer.
  
- ### Data Analysis carried out on Structured Query Languag
+ ### Data Analysis on Structured Query Language
  ---
- This is where we include some basic lines of code or queries.
+ This is where we include some basic lines of code during our analysis.
  
 To select the dataset table
  ```SQL
